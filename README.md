@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Portfolio 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my second portfolio project for the Noroff Accelerate program. It is a React app that displays my projects. It
+is built with Create React App.
 
-## Available Scripts
+[GitHub Repo](https://github.com/siljeangelvik/portfolio2-presentation)  
+[Netlify](https://portfolio2-presentation.netlify.app/)
 
-In the project directory, you can run:
+## Built with
 
-### `yarn start`
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://reactjs.org/)
+- [Create React App](https://create-react-app.dev/)
+- [Netlify](https://www.netlify.com/)
+- [PhpStorm](https://www.jetbrains.com/phpstorm/)
+- [Git](https://training.github.com/downloads/github-git-cheat-sheet/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installing
 
-### `yarn test`
+1. Clone the repo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone git@github.com:siljeangelvik/portfolio2-presentation.git
+```
 
-### `yarn build`
+2. Install the dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Running
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run and preview the app:
 
-### `yarn eject`
+```bash
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No contributions at this time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Click on the badges below to go to my profiles or contact me via email.
 
-## Learn More
+<a href = "https://www.linkedin.com/in/siljeangelvik/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn Badge" />
+</a>
+<a href = "https://github.com/siljeangelvik">
+    <img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub Badge" />
+</a>
+<a href = "mailto: angelviksilje@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335.svg?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail Badge" />
+</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A repository where anyone can use to create a static webpage containing the most up-to-date ISC license.
 
-### Code Splitting
+[ISC License](https://opensource.org/licenses/ISC) from Open Source
+Initiative [ISC License](https://www.isc.org/downloads/software-support-policy/isc-license/) from the Internet Systems
+Consortium [ISC License](http://cvsweb.openbsd.org/cgi-bin/cvsweb/src/share/misc/license.template?rev=HEAD) from OpenBSD
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The ISC copyright is functionally equivalent to a two-term BSD copyright with language removed that is made unnecessary
+by the Berne convention. This is the preferred license for new code incorporated into OpenBSD.
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Resources
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> #### Docs
+> - [React Learn](https://react.dev/learn)
+> #### Videos and Tools
+> - [React Tutorial](https://www.youtube.com/watch?v=WsuL9y9-aMs)
