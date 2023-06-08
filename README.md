@@ -85,4 +85,5 @@ by the Berne convention. This is the preferred license for new code incorporated
 > #### Docs
 > - [React Learn](https://react.dev/learn)
 > #### Videos and Tools
+> - [Dark Mode React AntDesign](https://www.youtube.com/watch?v=kOjPItyTn8k)
 > - [React Tutorial](https://www.youtube.com/watch?v=WsuL9y9-aMs)
