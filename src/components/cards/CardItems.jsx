@@ -9,7 +9,7 @@ const projects = [
     {
         title: 'Holidaze',
         subtitle: 'Project Exam 2',
-        description: `React exam project for "Frontend Development 2" at Noroff. Website for fictional venue booking app "Holidaze" using React, AntDesign and Netlify. Includes home, profile, and venue detail pages.`,
+        description: `Exam project for "Frontend Development 2" at Noroff. Website for fictional venue booking app "Holidaze" using React, AntDesign and Netlify. Includes home, profile, and venue detail pages.`,
         media: [
             './media/project_exam_2_home.png',
             './media/project_exam_2_details.png',
@@ -23,7 +23,7 @@ const projects = [
     {
         title: 'uShop',
         subtitle: 'JavaScript Frameworks CA',
-        description: 'A simple e-commerce app that fetches and displays data from an API. Users can add/remove items from the cart, which is saved in local storage. Item details are also available.',
+        description: 'A simple e-commerce app that fetches and displays data from an API. Users can add/remove items from the cart, which is saved in local storage. Item details are also available. (mobile-first-approach).',
         media: [
             './media/javascript_frameworks_home.png',
             './media/javascript_frameworks_details.png',
@@ -37,7 +37,7 @@ const projects = [
     {
         title: 'Asta Auction',
         subtitle: 'Semester Project 2',
-        description: 'Web app for Asta Auction, an auction house. Built with JavaScript and TailwindCSS, it\'s responsive and works on mobile, tablet, and desktop (mobile-first approach).',
+        description: 'Web app for Asta Auction, an auction house. Built with JavaScript and TailwindCSS, it\'s responsive and works on mobile, tablet, and desktop (mobile-first-approach).',
         media: [
             './media/semester_project_2_home.png',
             './media/semester_project_2_details.png',
