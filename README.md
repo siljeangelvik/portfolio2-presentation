@@ -38,7 +38,7 @@ git clone git@github.com:siljeangelvik/portfolio2-presentation.git
 2. Install the dependencies:
 
 ```
-npm install
+yarn install
 ```
 
 ### Running
