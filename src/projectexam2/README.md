@@ -1,20 +1,24 @@
 # Project Exam 2
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/39caaf7a-be52-4896-87a3-0ecf29d801f8/deploy-status)](https://app.netlify.com/sites/exam-holidaze/deploys)  
-![Hello](https://img.shields.io/static/v1?label=exam&message=holidaze&color=orange)
-![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/react-antd-holidaze-exam?&color=ff69b4)  
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/react-antd-holidaze-exam?&color=blue)
-![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/R4Intellij?&color=blueviolet)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39caaf7a-be52-4896-87a3-0ecf29d801f8/deploy-status)](https://app.netlify.com/sites/exam-holidaze/deploys)   
+![Hello](https://img.shields.io/static/v1?label=project&message=holidaze&color=orange) ![GitHub last commit](https://img.shields.io/github/last-commit/siljeangelvik/react-antd-holidaze-exam?&color=ff69b4) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/siljeangelvik/react-antd-holidaze-exam?&color=blue) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/R4Intellij?&color=blueviolet)
 
-## Holidaze 
+**Student:** [Silje Angelvik](https://github.com/siljeangelvik)    
+**Host:** [Netlify](https://exam-holidaze.netlify.app/)  
+**Repository:** [GitHub](https://github.com/siljeangelvik/react-antd-holidaze-exam)
 
-[CA Delivery](https://lms.noroff.no/mod/assign/view.php?id=83438)  
-[GitHub Repo](https://github.com/siljeangelvik/react-antd-holidaze-exam)  
-[Netlify](https://exam-holidaze.netlify.app/)
+| Resources | URLs                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| GitHub    | [Kanban](https://github.com/users/siljeangelvik/projects/1/views/2) - [Gantt Chartt](https://github.com/users/siljeangelvik/projects/1/views/3) - [Table Oveview](https://github.com/users/siljeangelvik/projects/1/views/4)                                                                                                                                                                                                                    |
+| Figma     | [Style Tile](https://www.figma.com/file/0rgZXLdgoNZuJTmYoTV9MA/Holidaze-Venue-Manager-UI?type=design&node-id=30-1568&t=K92xt7vpIrkLTIzI-0) - [Prototype Mobile](https://www.figma.com/file/0rgZXLdgoNZuJTmYoTV9MA/Holidaze-Venue-Manager-UI?type=design&node-id=5-911&t=xkqBhFw0ewmxhreV-0) - [Prototype Desktop](https://www.figma.com/file/0rgZXLdgoNZuJTmYoTV9MA/Holidaze-Venue-Manager-UI?type=design&node-id=36-1086&t=i0IMM4amVObPEwpw-0) |
+| Resources | [Exam Brief](https://content.noroff.dev/project-exam-2/brief.html) - [Holidaze API Docs](https://docs.noroff.dev/holidaze/venues) - [API Endpoints](https://nf-api.onrender.com/docs/static/index.html#/)                                                                                                                                                                                                                                       |                                                                                                                                                                                                                     |
 
-![Holidaze Home Page](./media/project_exam_2_home.png)  
-![Holidaze Details Page](./media/project_exam_2_details.png)  
-![Holidaze Profile Page](./media/project_exam_2_profile.png)
+## Holidaze
+
+<img src="./media/project_exam_2_home.png" alt="Holidaze Home Page" width="482" /> <br/>
+<img src="./media/project_exam_2_details.png" alt="Holidaze Details Page" width="240" /> <img src="./media/project_exam_2_profile.png" alt="Holidaze Profile Page" width="240" />
+
+The images displayed above are screenshots of the Holidaze website on desktop.
 
 ## Description
 
@@ -23,18 +27,6 @@ The project is a website for a fictional venue booking application called "Holid
 The website is built with React, AntDesign, Sanity.io and Netlify.   
 This project contains a single page application with a home(list of venues) page,   
 a profile page and a detail page for each venue.
-
-What are the technical solutions?
-: N/A ...
-
-What are the technologies used?
-: N/A ...
-
-What would you do differently next time?
-: N/A ...
-
-What are the things you were happy with?
-: N/A ...
 
 ## Built With
 
@@ -53,7 +45,7 @@ What are the things you were happy with?
 - [Netlify](https://www.netlify.com/)
 - [PhpStorm](https://www.jetbrains.com/phpstorm/)
 - [Noroff API _Holidaze_ Endpoints](https://api.noroff.dev/api/v1/holidaze/venues)
-- [Noroff API Docs](https://docs.noroff.dev/holidaze/venues) 
+- [Noroff API Docs](https://docs.noroff.dev/holidaze/venues)
 
 ## Getting Started
 

@@ -1,38 +1,33 @@
 # Semester Project 2
 
-## Asta Auction
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eccbfa2e-f635-4c38-97d1-c45f18c73235/deploy-status?branch=main)](https://app.netlify.com/sites/angelvik-semester-project-2/deploys)  
+![Main Branch](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=main)
 
-[CA Delivery](https://lms.noroff.no/mod/assign/view.php?id=83437)  
-[GitHub Repo](https://github.com/siljeangelvik/semesterproject2)  
-[Netlify](https://silje-semesterproject2.netlify.app/)
+**Student:** [Silje Angelvik](https://github.com/siljeangelvik)    
+**Host:** [Netlify](https://silje-semesterproject2.netlify.app/)  
+**Repository:** [GitHub](https://github.com/siljeangelvik/semesterproject2)
 
-![Online Shop Home Page](./media/semester_project_2_home.png)
-![Online Shop Details Page](./media/semester_project_2_details.png)
-![Online Shop Profile Page](./media/semester_project_2_profile.png)
+| Resources   | URLs                                                                                                                                                       |
+|:------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Style Tile  | [Figma](https://www.figma.com/file/Ulp9wwN9k2owtTji6ksOHh/Semester-Project-2?node-id=0%3A1&t=IKxYWfv45f12mj2z-1)                                           |
+| Prototype   | [Figma](https://www.figma.com/proto/Ulp9wwN9k2owtTji6ksOHh/Semester-Project-2?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3) |                                                                                                                                                                                                                     |
+| Kanban      | [Trello Board](https://trello.com/b/BqgXk4Ij/semester-project-2)                                                                                           |     
+| Gantt Chart | [Ganttchart](https://silje-semesterproject2.netlify.app/gantt/index.html)                                                                                  |
+| Noroff      | [Project Brief](https://lms.noroff.no/mod/assign/view.php?id=83437)                                                                                        |                                                                                                                                                                                                                     |
+
+_**Remote Project Name:** semesterproject2_  
+_**Local Project Name:** documents/Repos/School/semester-vite/vite-tailwind_
+
+## Asta Auction Application
+
+<img src="./public/media/semester_project_2_home.png" alt="Auction House Home Page" width="482"> <br/>  
+<img src="./public/media/semester_project_2_details.png" alt="Auction House Details Page" width="240"> <img src="./public/media/semester_project_2_profile.png" alt="Auction House Profile Page" width="240">
 
 ## Description
 
 This is a web application for an auction house called Asta Auction. The application is built with JavaScript and
 TailwindCSS. The application is responsive and works well on mobile, tablet, and somewhat desktop. The application is
 built with a mobile-first approach.
-
-What are the technical solutions?
-: The technical solutions are to use JavaScript to fetch users listings and items from the API and display them on the
-page.
-
-What are the technologies used?
-: JavaScript, TailwindCSS, HTML, CSS, Git, GitHub, Netlify, and PhpStorm IDEA.
-
-What would you do differently next time?
-: I would like to add a functional searchbar to the application, as well as fixing small details like formatting the
-dates, fixing the size of the image on details page, make a proper back-button, and adding a filter function.
-
-What are the things you were happy with?
-: I am happy with the overall design of the application, and that I managed to make it responsive.
-: I am also happy with the functionality of the application, and that I managed to make it work with the API.
-: Making an image carousel was something I tested out the first year, and quickly found it to be a challenge. I am
-happy with the carousel I made on the details page of this
-project. ([example](https://silje-semesterproject2.netlify.app/details/index.html?id=cc5bfbc5-1944-49f4-b29c-7bccc671e076)).
 
 ## Built with
 

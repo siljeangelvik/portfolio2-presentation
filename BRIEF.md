@@ -4,21 +4,25 @@
 
 ## Goal
 
-As a developer, you will have to maintain a level of professionalism. This extends past writing code. We need to document our apps so that other developers can run the code without any issues. We also need to keep a professional-looking portfolio so that others have confidence in us and the work that we do.
+As a developer, you will have to maintain a level of professionalism. 
+
+This extends past writing code. We need to document our apps so that other developers can run the code without any issues. 
+
+We also need to keep a professional-looking portfolio so that others have confidence in us and the work that we do.
 
 ## Brief
 
 In this assignment, you will be documenting three prior submissions from the first year:
 
-- Semester Project 2
-- JavaScript Frameworks CA
-- Project Exam 2
+- Semester Project 2 ✅
+- JavaScript Frameworks CA ✅
+- Project Exam 2 ✅
 
-You will be creating a README.md file at the root of each of these projects and then documenting the submissions following a given format.
+You will be creating a README.md file at the root of each of these projects and then documenting the submissions following a given format.  ✅
 
-You will then also be creating a README.md for your own personal GitHub profile.
+You will then also be creating a README.md for your own personal GitHub profile. ✅
 
-Lastly, you will be creating a portfolio webpage that lists these 3 projects.
+Lastly, you will be creating a portfolio webpage that lists these 3 projects. ⚠️
 
 This page must:
 - List the 3 projects as cards
@@ -31,25 +35,35 @@ This page must:
 
 > **NOTE** ℹ️
 >
-> For **ONLINE** students, it is fine if the link is to a private Noroff repo and can’t be accessed by the general public.
+> ~~For **ONLINE** students, it is fine if the link is to a private Noroff repo and can’t be accessed by the general public.~~
 >
-> For **CAMPUS** students, do not use any private GitHub classroom links. Use your public GitHub repo links.
+> For **CAMPUS** students, do not use any private GitHub classroom links. Use your public GitHub repo links. ✅
 >
-> Some of these submissions might not be on your personal portfolio at this point in time. This is not an issue at this stage.
+> ~~Some of these submissions might not be on your personal portfolio at this point in time. This is not an issue at this stage.~~
 >
-> Project Exam 2 might still be getting marked. Do not make any changes to your submission other than the README.md as detailed in the Level 1 Process below.
+> Project Exam 2 might still be getting marked. Do not make any changes to your submission other than the README.md as detailed in the Level 1 Process below. ✅
 >
 > https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
 
 
 ## Level 1 Process
 
-1. Create a README.md in each of the submissions if one doesn’t exist.
-2. Copy the template found here, making sure to populate it with your own information: https://github.com/NoroffFEU/portfolio-1-example/blob/main/README.md. Feel free to use any other popular templates on the internet if you prefer the way they’ve done it, however, these templates will need to have multiple sections.
-3. Push the changes when done.
-4. Follow this GitHub guide and create your own GitHub profile README.md: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme. Consider googling “GitHub profiles” for some inspiration.
-5. Push the changes when done.
-6. Create a personal portfolio webpage that lists the 3 projects as cards. These cards must have a screenshot of the project and a link to the GitHub repo for that project. It is fine if the repo is private on the Noroff account at this point in time. This must be done on a public repo on your personal GitHub account. You are free to use whatever tech stack you’d like. The page must look good and be responsive. Consider using GitHub pages to host it, otherwise, you can use Netlify.
+1. Create a README.md in each of the submissions if one doesn’t exist. ✅
+2. Copy the template found here, making sure to populate it with your own information:   
+https://github.com/NoroffFEU/portfolio-1-example/blob/main/README.md.   
+Feel free to use any other popular templates on the internet if you prefer the way they’ve done it, however, these templates will need to have multiple sections. ✅
+3. Push the changes when done. ✅
+4. Follow this GitHub guide and create your own GitHub profile README.md:   
+https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.   
+Consider googling “GitHub profiles” for some inspiration. ✅
+5. Push the changes when done. ✅
+6. Create a personal portfolio webpage that lists the 3 projects as cards.   
+These cards must have a screenshot of the project and a link to the GitHub repo for that project.   
+It is fine if the repo is private on the Noroff account at this point in time.   
+This must be done on a public repo on your personal GitHub account.   
+You are free to use whatever tech stack you’d like.   
+The page must look good and be responsive.   
+Consider using GitHub pages to host it, otherwise, you can use Netlify. ✅ 
 7. Submit the links to all three projects on GitHub, a link to your personal portfolio on GitHub, and the portfolio webpage that you’ve made.
 
 ## Marking criteria

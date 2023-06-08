@@ -1,30 +1,24 @@
 # JavaScript Frameworks CA
 
+**Student:** [Silje Angelvik](https://github.com/siljeangelvik)    
+**Host:** [Netlify](https://react-ts-ecom-cart.netlify.app/)   
+**Repository:** [GitHub](https://github.com/siljeangelvik/react-ts-shopping-cart)
+
+| Resources | URLs                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Noroff    | [Project Brief](https://lms.noroff.no/mod/assign/view.php?id=83441) - [API Endpoints](https://api.noroff.dev/api/v1/online-shop)                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                     |
+
 ## uShop Online Shop
 
-[CA Delivery](https://lms.noroff.no/mod/assign/view.php?id=83441)  
-[GitHub Repo](https://github.com/siljeangelvik/react-ts-shopping-cart)  
-[Netlify](https://react-ts-ecom-cart.netlify.app/)
-
-![Online Shop Home Page](./media/javascript_frameworks_home.png)
-![Online Shop Contact Page](./media/javascript_frameworks_contact.png) 
-![Online Shop Details Page](./media/javascript_frameworks_details.png)
+<img src="./public/media/javascript_frameworks_home.png" alt="uShop Home Page" width="482"> <br/>
+<img src="./public/media/javascript_frameworks_details.png" alt="uShop Details Page" width="240"> <img src="./public/media/javascript_frameworks_contact.png" alt="uShop Contact Page" width="240">
 
 ## Description
 
-This is a simple e-commerce application that fetches data from an API and displays it on the page. The user can add and remove items from the cart, and the cart is saved in local storage. The user can also view the details of each item.
+This is a simple e-commerce application that fetches data from an API and displays it on the page.
 
-What are the technical solutions?
-: The application is built with React.js and TypeScript. I have used Redux Toolkit to manage the state of the application, and I have used RTK Query to fetch data from the API. I have used React Router DOM to handle the routing, and I have used Formik and Yup to handle the form validation. I have used TailwindCSS for styling, and I have used Bootstrap for the navbar. I have used Vite to build the application, and I have deployed the application on Netlify.
-
-What are the technologies used?
-: HTML, CSS, JavaScript, TypeScript, React.js, React Router DOM, Redux Toolkit, RTK Query, Formik, Yup, TailwindCSS, Bootstrap, Vite, Netlify.
-
-What would you do differently next time?
-: 
-
-What are the things you were happy with?
-:
+The user can add and remove items from the cart, and the cart is saved in local storage. The user can also view the
+details of each item.
 
 ## Built With
 
