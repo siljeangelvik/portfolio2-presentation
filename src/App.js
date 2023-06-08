@@ -1,46 +1,51 @@
-import {Link, Route, Routes} from 'react-router-dom';
+import { Content } from 'antd/lib/layout/layout';
+import { Link, Route, Routes } from 'react-router-dom';
+import useToggle from './hooks/useToggle';
+import NavBar from './components/NavBar';
 import Contact from './components/Contact';
 import Home from './pages/Home';
 import './main.css';
-import React, {useState} from "react";
-import {ConfigProvider, theme, Button} from "antd";
+import React  from "react";
+import { ConfigProvider, theme } from "antd";
 
 function App() {
     const {defaultAlgorithm, darkAlgorithm} = theme;
-    const [isDarkMode, setIsDarkMode] = useState(false);
-    const [darkModeClass, setDarkModeClass] = useState('');
+    const [isDarkMode, toggleDarkMode] = useToggle(false);
+    const darkModeClass = isDarkMode ? 'dark-mode' : '';
 
     const handleClick = () => {
-        setIsDarkMode((previousValue) => !previousValue);
-        setDarkModeClass(previousClass => (previousClass === '' ? 'dark-mode' : ''));
+        toggleDarkMode();
     };
 
     return (
-        <div className={darkModeClass} style={{padding:"20px", height:"100vh"}}>
+        <>
             <ConfigProvider
                 theme={{
                     algorithm: isDarkMode ? darkAlgorithm : defaultAlgorithm,
-                }}>
-                <Button onClick={handleClick}>
-                    Change Theme to {isDarkMode ? "Light" : "Dark"}
-                </Button>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to={`https://siljeangelvik.netlify.app/`}>Old Portfolio</Link>
-                        </li>
-                    </ul>
-                </nav>
-                <Contact/>
-                <h1>Collection</h1>
-                <Routes>
-                    <Route index path="/" element={<Home/>}/>
-                </Routes>
+                }}
+            >
+                <div className={darkModeClass} style={{ minHeight: "100vh" }}>
+                    <NavBar handleClick={handleClick} isDarkMode={isDarkMode} />
+                    <Content style={{ padding: "20px" }}>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <Link to="/">Home</Link>
+                                </li>
+                                <li>
+                                    <Link to={`https://siljeangelvik.netlify.app/`}>Old Portfolio</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                        <Contact />
+                        <h1>Collection</h1>
+                        <Routes>
+                            <Route index path="/" element={<Home />} />
+                        </Routes>
+                    </Content>
+                </div>
             </ConfigProvider>
-        </div>
+        </>
     );
 }
 

@@ -1,0 +1,49 @@
+.theme-switch-container::after {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: translate(-11px, 19px) rotate(120deg);
+    user-select: none;
+    #color: #17193F;
+}
+
+.theme-switch-button,
+.theme-switch-button:checked  {
+    transform: translateX(calc(100px - 30px));
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    color: #333;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: translate(-11px, 19px) rotate(120deg);
+    user-select: none;
+    #color: #17193F;
+}
+
+.theme-switch-button:checked  {
+    transform: translateX(calc(100px - 30px));
+    #box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+}
+
+
+input[type="checkbox"]:checked ~ .switch-btn {
+    #border: 4px solid #2e3052;
+    #background-color: #7635DC;
+}
+
+input[type="checkbox"]:checked ~ .switch-btn label {
+    transform: translateX(calc(100px - 30px));
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+}
+
+input[type="checkbox"]:checked ~ .switch-btn label .icons {
+    transform: translateX(-20px);
+}
+.theme-switch-container,
+.theme-switch-button {
+    #color: #333;
+}
