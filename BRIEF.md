@@ -25,12 +25,12 @@ You will then also be creating a README.md for your own personal GitHub profile.
 Lastly, you will be creating a portfolio webpage that lists these 3 projects. ⚠️
 
 This page must:
-- List the 3 projects as cards
+- List the 3 projects as cards  ✅
 - Each card must have:
-    - the title of the project,
-    - a description,
-    - a screenshot of how the project looks when running,
-    - a link to the GitHub repo and a live site if it is online.
+    - the title of the project  ✅
+    - a description  ✅
+    - a screenshot of how the project looks when running  ✅
+    - a link to the GitHub repo and a live site if it is online  ✅
 
 
 > **NOTE** ℹ️
@@ -57,12 +57,12 @@ Feel free to use any other popular templates on the internet if you prefer the w
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme.   
 Consider googling “GitHub profiles” for some inspiration. ✅
 5. Push the changes when done. ✅
-6. Create a personal portfolio webpage that lists the 3 projects as cards.   
+6. Create a personal portfolio webpage that lists the 3 projects as cards.  ✅  
 These cards must have a screenshot of the project and a link to the GitHub repo for that project.   
-It is fine if the repo is private on the Noroff account at this point in time.   
-This must be done on a public repo on your personal GitHub account.   
-You are free to use whatever tech stack you’d like.   
-The page must look good and be responsive.   
+~~It is fine if the repo is private on the Noroff account at this point in time.~~   
+This must be done on a public repo on your personal GitHub account.  ✅  
+You are free to use whatever tech stack you’d like.  ✅  
+The page must look good and be responsive.  ✅   
 Consider using GitHub pages to host it, otherwise, you can use Netlify. ✅ 
 7. Submit the links to all three projects on GitHub, a link to your personal portfolio on GitHub, and the portfolio webpage that you’ve made.
 

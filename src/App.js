@@ -1,5 +1,6 @@
 import {Link, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
+import './main.css';
 
 function App() {
     return (
@@ -9,10 +10,13 @@ function App() {
                     <li>
                         <Link to="/">Home</Link>
                     </li>
+                    <li>
+                        <Link to={`https://siljeangelvik.netlify.app/`}>Old Portfolio</Link>
+                    </li>
                 </ul>
             </nav>
 
-            <h1>App</h1>
+            <h1>Collection</h1>
             <Routes>
                 <Route index path="/" element={<Home/>}/>
             </Routes>

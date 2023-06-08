@@ -12,6 +12,8 @@ is built with Create React App.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- [Ant Design](https://ant.design/)
 - [Create React App](https://create-react-app.dev/)
 - [Netlify](https://www.netlify.com/)
 - [PhpStorm](https://www.jetbrains.com/phpstorm/)
