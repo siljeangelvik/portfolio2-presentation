@@ -1,3 +1,19 @@
 body {
     font-family: AppleSystemUIFont, Helvetica, Arial, sans-serif;
 }
+
+.dark-mode {
+    background-color: #333; /* Set your desired dark mode background color */
+    color: #fff; /* Set your desired dark mode text color */
+}
+
+.site-form-in-drawer-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 16px;
+    text-align: right;
+    background: #fff;
+    border-top: 1px solid #e9e9e9;
+}

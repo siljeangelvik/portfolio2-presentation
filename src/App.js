@@ -1,19 +1,22 @@
 import {Link, Route, Routes} from 'react-router-dom';
+import Contact from './components/Contact';
 import Home from './pages/Home';
 import './main.css';
-import {useState} from "react";
+import React, {useState} from "react";
 import {ConfigProvider, theme, Button} from "antd";
 
 function App() {
     const {defaultAlgorithm, darkAlgorithm} = theme;
     const [isDarkMode, setIsDarkMode] = useState(false);
+    const [darkModeClass, setDarkModeClass] = useState('');
 
     const handleClick = () => {
         setIsDarkMode((previousValue) => !previousValue);
+        setDarkModeClass(previousClass => (previousClass === '' ? 'dark-mode' : ''));
     };
 
     return (
-        <>
+        <div className={darkModeClass}>
             <ConfigProvider
                 theme={{
                     algorithm: isDarkMode ? darkAlgorithm : defaultAlgorithm,
@@ -31,12 +34,13 @@ function App() {
                         </li>
                     </ul>
                 </nav>
+                <Contact/>
                 <h1>Collection</h1>
                 <Routes>
                     <Route index path="/" element={<Home/>}/>
                 </Routes>
             </ConfigProvider>
-        </>
+        </div>
     );
 }
 
