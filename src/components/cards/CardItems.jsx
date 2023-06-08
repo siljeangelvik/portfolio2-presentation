@@ -50,94 +50,91 @@ const projects = [
     },
 ];
 
-function CardItems() {
+function CardItems({isDarkMode}) {
     const listItems = projects.map((project, index) => {
         return (
-            <>
-                <Card
-                    key={index}
-                    style={{
-                        width: '320px',
-                        boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
-                        transition: '0.3s',
-                    }}
-                    cover={project.media.length > 0 ? (
-                        <Carousel
-                            autoplay
-                            autoplaySpeed={3000}
-                            pauseOnHover={true}
-                            style={{
-                                overflow: 'hidden',
-                                borderRadius: '5px',
-                            }}
-                        >
-                            {project.media.map((media, index) => {
-                                return (
-                                    <Image
-                                        key={index}
-                                        src={project.media[index]}
-                                        alt={project.title}
-                                        width="100%"
-                                        loading="lazy"
-                                        aria-label={project.title}
-                                    />
-                                );
-                            })}
-                        </Carousel>
-                    ) : (
-                        <Image
-                            src={project.media[0]}
-                            alt={project.title}
-                            width="100%"
-                            loading="lazy"
-                            aria-label={project.title}
-                        />
-                    )}
-                >
-                    <Link to={project.urls[1].url}>
-                        <Title
-                            level={4}
-                        >
-                            {project.title}
-                        </Title>
-                        <Title level={5} style={{color: '#888'}}>
-                            {project.subtitle}
-                        </Title>
-                        <Content>
-                            <Typography>
-                                {project.description}
-                            </Typography>
-                        </Content>
-                    </Link>
-                    <div
+            <Card
+                key={index}
+                style={{
+                    width: '320px',
+                    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+                    transition: '0.3s',
+                }}
+                cover={project.media.length > 0 ? (
+                    <Carousel
+                        autoplay
+                        autoplaySpeed={3000}
+                        pauseOnHover={true}
                         style={{
-                            marginTop: 'auto',
-                            paddingTop: '15px',
-                            display: 'flex',
-                            justifyContent: 'space-between',
+                            overflow: 'hidden',
+                            borderRadius: '5px',
                         }}
                     >
-                        <Button
-                            type="primary"
-                            href={project.urls[1].url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{width: '45%'}}
-                        >
-                            {project.urls[1].name}
-                        </Button>
-                        <Button
-                            type="primary"
-                            href={project.urls[0].url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{width: '50%'}}
-                        >
-                            {project.urls[0].name}
-                        </Button>
-                    </div>
-                </Card>
-            </>
+                        {project.media.map((media, index) => {
+                            return (
+                                <Image
+                                    key={index}
+                                    src={project.media[index]}
+                                    alt={project.title}
+                                    width="100%"
+                                    loading="lazy"
+                                    aria-label={project.title}
+                                />
+                            );
+                        })}
+                    </Carousel>
+                ) : (
+                    <Image
+                        src={project.media[0]}
+                        alt={project.title}
+                        width="100%"
+                        loading="lazy"
+                        aria-label={project.title}
+                    />
+                )}
+            >
+                <Link to={project.urls[1].url}>
+                    <Title level={4}>
+                        {project.title}
+                    </Title>
+                    <Title level={5} style={{color: '#888'}}>
+                        {project.subtitle}
+                    </Title>
+                    <Content>
+                        <Typography>
+                            {project.description}
+                        </Typography>
+                    </Content>
+                </Link>
+                <div
+                    className="theme-switch-container"
+                    style={{
+                        marginTop: 'auto',
+                        paddingTop: '15px',
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                    }}
+                >
+                    <Button
+                        className={`primary-button ${isDarkMode ? 'dark' : 'light'}`}
+                        href={project.urls[1].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{width: '45%', borderRadius: '0'}}
+                    >
+                        {project.urls[1].name}
+                    </Button>
+                    <Button
+                        className={`secondary-button ${isDarkMode ? 'dark' : 'light'}`}
+                        href={project.urls[0].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{width: '50%'}}
+                    >
+                        {project.urls[0].name}
+                    </Button>
+                </div>
+            </Card>
         );
     });
 

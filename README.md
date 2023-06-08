@@ -10,7 +10,8 @@
 
 This is a presentation of my portfolio 2 project. The presentation is made with React and Ant Design.
 
-The website is a static webpage that contains information about the projects, the repository and the result. The website is hosted on Netlify.
+The website is a static webpage that contains information about the projects, the repository and the result. The website
+is hosted on Netlify.
 
 ## Built with
 
@@ -83,6 +84,7 @@ by the Berne convention. This is the preferred license for new code incorporated
 ### Resources
 
 > #### Docs
+> - [Dark Mode Toggle Switch](https://timetoprogram.com/dark-mode-toggle-switch-html-css/)
 > - [React Learn](https://react.dev/learn)
 > - [AntDesign Icons](https://ant.design/components/icon)
 > - [AntDesign Drawer](https://ant.design/components/drawer)

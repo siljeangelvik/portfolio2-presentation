@@ -1,28 +1,30 @@
-import { MailOutlined } from '@ant-design/icons';
 import { Button, Col, Drawer, Form, Input, Row, Space } from 'antd';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import './styles.css';
+import {Link} from 'react-router-dom';
 
 const Contact = () => {
-    const [open, setOpen] = useState(false);
+    const [visible, setVisible] = useState(false);
+    const [size, setSize] = useState();
 
-    const showDrawer = () => {
-        setOpen(true);
+    const showDefaultDrawer = () => {
+        setSize('default');
+        setVisible(true);
     };
 
     const onClose = () => {
-        setOpen(false);
+        setVisible(false);
     };
 
     return (
         <>
-            <Button type="primary" onClick={showDrawer} icon={<MailOutlined />}>
-                Contact
-            </Button>
+            <Link to="/*" onClick={showDefaultDrawer}>Contact</Link>
             <Drawer
-                title="Contact me by email"
-                width={720}
+                title="Contact Me"
+                placement="right"
+                size={size}
                 onClose={onClose}
-                open={open}
+                open={visible}
                 bodyStyle={{
                     paddingBottom: 80,
                 }}
@@ -51,20 +53,50 @@ const Contact = () => {
                                 <Input placeholder="Please enter your name" />
                             </Form.Item>
                         </Col>
+                        <Col span={12}>
+                            <Form.Item
+                                name="phone"
+                                label="Phone"
+                                rules={[
+                                    {
+                                        required: true,
+                                        message: 'Please enter your phone number',
+                                    },
+                                ]}
+                            >
+                                <Input placeholder="Please enter your phone number" />
+                            </Form.Item>
+                        </Col>
                     </Row>
                     <Row gutter={16}>
                         <Col span={24}>
                             <Form.Item
-                                name="description"
-                                label="Description"
+                                name="email"
+                                label="Email"
                                 rules={[
                                     {
                                         required: true,
-                                        message: 'please enter url description',
+                                        message: 'Please enter your email address',
                                     },
                                 ]}
                             >
-                                <Input.TextArea rows={4} placeholder="please enter url description" />
+                                <Input placeholder="Please enter your email address" />
+                            </Form.Item>
+                        </Col>
+                    </Row>
+                    <Row gutter={16}>
+                        <Col span={24}>
+                            <Form.Item
+                                name="message"
+                                label="Message"
+                                rules={[
+                                    {
+                                        required: true,
+                                        message: 'please enter a message',
+                                    },
+                                ]}
+                            >
+                                <Input.TextArea rows={4} placeholder="please enter a message" />
                             </Form.Item>
                         </Col>
                     </Row>
