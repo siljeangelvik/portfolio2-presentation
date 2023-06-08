@@ -1,6 +1,6 @@
 # Portfolio 2
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eccbfa2e-f635-4c38-97d1-c45f18c73235/deploy-status?branch=main)](https://app.netlify.com/sites/portfolio-2-presentation/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/09ed0b6b-4ec0-4cd6-bc3e-29d3c38ade8f/deploy-status)](https://app.netlify.com/sites/portfolio2-presentation/deploys)
 
 **Student:** [Silje Angelvik](https://github.com/siljeangelvik)    
 **Host:** [Netlify](https://portfolio2-presentation.netlify.app/)  
