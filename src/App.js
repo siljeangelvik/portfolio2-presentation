@@ -16,7 +16,7 @@ function App() {
     };
 
     return (
-        <div className={darkModeClass}>
+        <div className={darkModeClass} style={{padding:"20px", height:"100vh"}}>
             <ConfigProvider
                 theme={{
                     algorithm: isDarkMode ? darkAlgorithm : defaultAlgorithm,
