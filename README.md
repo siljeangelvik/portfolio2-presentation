@@ -84,6 +84,9 @@ by the Berne convention. This is the preferred license for new code incorporated
 
 > #### Docs
 > - [React Learn](https://react.dev/learn)
+> - [AntDesign Icons](https://ant.design/components/icon)
+> - [AntDesign Drawer](https://ant.design/components/drawer)
+> - [AntDesign Customize Theme](https://ant.design/docs/react/customize-theme)
 > #### Videos and Tools
 > - [Dark Mode React AntDesign](https://www.youtube.com/watch?v=kOjPItyTn8k)
 > - [React Tutorial](https://www.youtube.com/watch?v=WsuL9y9-aMs)
