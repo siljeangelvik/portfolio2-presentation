@@ -1,10 +1,16 @@
 # Portfolio 2
 
-This is my second portfolio project for the Noroff Accelerate program. It is a React app that displays my projects. It
-is built with Create React App.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eccbfa2e-f635-4c38-97d1-c45f18c73235/deploy-status?branch=main)](https://app.netlify.com/sites/portfolio-2-presentation/deploys)
 
-[GitHub Repo](https://github.com/siljeangelvik/portfolio2-presentation)  
-[Netlify](https://portfolio2-presentation.netlify.app/)
+**Student:** [Silje Angelvik](https://github.com/siljeangelvik)    
+**Host:** [Netlify](https://portfolio2-presentation.netlify.app/)  
+**Repository:** [GitHub](https://github.com/siljeangelvik/portfolio2-presentation)
+
+## Description
+
+This is a presentation of my portfolio 2 project. The presentation is made with React and Ant Design.
+
+The website is a static webpage that contains information about the projects, the repository and the result. The website is hosted on Netlify.
 
 ## Built with
 
