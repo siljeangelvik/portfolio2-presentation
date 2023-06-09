@@ -1,6 +1,6 @@
 import {Content} from 'antd/es/layout/layout';
 import React from 'react';
-import CardItems from '../components/cards/CardItems';
+import CardItems from '../components/CardItems';
 
 const Home = ({isDarkMode}) => {
 

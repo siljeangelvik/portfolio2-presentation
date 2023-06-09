@@ -10,8 +10,8 @@
 
 ## uShop Online Shop
 
-<img src="./public/media/javascript_frameworks_home.png" alt="uShop Home Page" width="482"> <br/>
-<img src="./public/media/javascript_frameworks_details.png" alt="uShop Details Page" width="240"> <img src="./public/media/javascript_frameworks_contact.png" alt="uShop Contact Page" width="240">
+<img src="./media/javascript_frameworks_home.png" alt="uShop Home Page" width="482"> <br/>
+<img src="./media/javascript_frameworks_details.png" alt="uShop Details Page" width="240"> <img src="./media/javascript_frameworks_contact.png" alt="uShop Contact Page" width="240">
 
 ## Description
 

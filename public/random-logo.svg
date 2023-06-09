@@ -1,0 +1,16 @@
+<svg width="300" height="300" fill="url(#darkModeGradient)" xmlns="http://www.w3.org/2000/svg">
+   <!--
+     <polygon points="0 100,      40 35,      80 100,      40 0"       fill="#fff"/>
+    <polygon points="0 40,      40 80,      80 40,      40 100"     fill="#ccc"/>
+   -->
+    <polygon points="0 40,      40 80,      80 40,      40 100"     fill="#ccc"/>
+    <polygon points="0 100,      40 35,      80 100,      40 0"       fill="#fff"/>
+    <defs>
+        <linearGradient id="darkModeGradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(193)">
+            <stop offset="0%" stop-color="#020024"/>
+            <stop offset="35%" stop-color="#090979"/>
+            <stop offset="57%" stop-color="#064EA6"/>
+            <stop offset="100%" stop-color="#00D4FF"/>
+        </linearGradient>
+    </defs>
+</svg>

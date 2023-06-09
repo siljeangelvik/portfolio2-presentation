@@ -1,3 +1,22 @@
+/* @formatter:off */
+:root {
+    --gradient-bg-light: linear-gradient(
+            278deg,
+            rgba(131, 58, 180, 1) 0%,
+            rgba(253, 29, 29, 1) 46%,
+            rgba(253, 72, 41, 1) 58%,
+            rgba(252, 176, 69, 1) 87%
+    );
+    --gradient-bg-dark: linear-gradient(
+            193deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 9, 121, 1) 35%,
+            rgba(6, 78, 166, 1) 57%,
+            rgba(0, 212, 255, 1) 100%
+    );
+    --gradient-bg: var(--gradient-bg-light);
+}
+
 .theme-switch-container {
     margin-top: 0;
     width: auto;
@@ -57,108 +76,44 @@
     box-shadow: 0 0 4px #eee;
 }
 
-/********* PRIMARY BUTTON *****************/
-/* Primary: Light Mode */
+.primary-button,
+.secondary-button {
+    border: none;
+    font-weight: bold;
+    border-image: none;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 #444;
+    transform: translate(0);
+    transform-style: preserve-3d;
+}
+
 .primary-button.light {
-    background: linear-gradient(
-            278deg,
-            rgba(131, 58, 180, 1) 0%,
-            rgba(253, 29, 29, 1) 46%,
-            rgba(253, 72, 41, 1) 58%,
-            rgba(252, 176, 69, 1) 87%
-    );
-    border: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-weight: bold;
+    color: white;
+    background: var(--gradient-bg-light);
 }
 
-/* Primary: Dark Mode */
 .primary-button.dark {
-    background: linear-gradient(
-            193deg,
-            rgba(2, 0, 36, 1) 0%,
-            rgba(9, 9, 121, 1) 35%,
-            rgba(6, 78, 166, 1) 57%,
-            rgba(0, 212, 255, 1) 100%
-    );
-    border: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-weight: bold;
+    background: var(--gradient-bg-dark);
 }
 
-/* Primary: Light Mode Hover */
-.primary-button.light:hover {
-    border: none;
-    box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease-in-out;
-    background: linear-gradient(
-            278deg,
-            rgba(131, 58, 180, 1) 0%,
-            rgba(253, 29, 29, 1) 46%,
-            rgba(253, 72, 41, 1) 58%,
-            rgba(252, 176, 69, 1) 87%
-    );
-    font-weight: bold;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Primary: Dark Mode Hover */
-.primary-button.dark:hover {
-    /* Define hover styles for dark mode */
-}
-
-/********* SECONDARY BUTTON *****************/
-/* Secondary: Light Mode */
-.secondary-button.light {
-    background: transparent;
-    border: 2px outset transparent;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-image: linear-gradient(
-            278deg,
-            rgba(131, 58, 180, 1) 0%,
-            rgba(253, 29, 29, 1) 46%,
-            rgba(253, 72, 41, 1) 58%,
-            rgba(252, 176, 69, 1) 87%
-    ) 1;
-    font-weight: bold;
-}
-
-/* Secondary: Dark Mode */
-.secondary-button.dark {
-    background: transparent;
-    border: 2px outset transparent;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-image: linear-gradient(
-            193deg,
-            rgba(2, 0, 36, 1) 0%,
-            rgba(9, 9, 121, 1) 35%,
-            rgba(6, 78, 166, 1) 57%,
-            rgba(0, 212, 255, 1) 100%
-    ) 1;
-    font-weight: bold;
-}
-
-/* Secondary: Light Mode Hover */
+.primary-button.light:hover,
 .secondary-button.light:hover {
-    border: none;
-    box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease-in-out;
-    background: linear-gradient(
-            278deg,
-            rgba(131, 58, 180, 1) 0%,
-            rgba(253, 29, 29, 1) 46%,
-            rgba(253, 72, 41, 1) 58%,
-            rgba(252, 176, 69, 1) 87%
-    );
-    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(253, 72, 41, 1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-/* Secondary: Dark Mode Hover */
+.primary-button.dark:hover,
 .secondary-button.dark:hover {
-    background-color: rgba(2, 0, 36, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 212, 255, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--gradient-bg-dark);
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.secondary-button.light {
+    -webkit-text-fill-color: #000;
 }
 
 /*  If the browser window is 600px or smaller   */

@@ -32,8 +32,10 @@ const NavBar = ({handleClick, isDarkMode}) => {
         <Header style={{padding: 0}}>
             <Row justify="space-between" align="middle">
                 <Col xs={20} sm={20} md={4}>
-                    <div className="logo" style={{color: "white", paddingLeft: "20px"}}>
-                        My Logo
+                    <div style={{maxWidth: "100px", display: "flex", justifyContent: "center", alignItems: "center"}}>
+                        {!isDarkMode
+                            ? <img src="./avenaDev-lightMode.svg" alt="Logo LightMode" width="42" height="42"/>
+                            : <img src="./avenaDev-darkMode.svg" alt="Logo DarkMode" width="42" height="42"/>}
                     </div>
                 </Col>
                 <Col xs={0} sm={0} md={20}>
@@ -66,7 +68,7 @@ const NavBar = ({handleClick, isDarkMode}) => {
                     </Menu>
                 </Col>
 
-                <Col xs={2} sm={2} md={0} style={{marginRight:"20px"}}>
+                <Col xs={2} sm={2} md={0} style={{marginRight: "20px"}}>
                     <Button type="primary" onClick={showDrawer}>
                         <MenuOutlined/>
                     </Button>
@@ -112,7 +114,8 @@ const NavBar = ({handleClick, isDarkMode}) => {
                 </Menu>
             </Drawer>
         </Header>
-    );
+    )
+        ;
 };
 
 export default NavBar;

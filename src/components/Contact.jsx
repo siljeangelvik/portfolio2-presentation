@@ -1,5 +1,5 @@
-import { Button, Col, Drawer, Form, Input, Row, Space } from 'antd';
-import React, { useState } from 'react';
+import {Button, Col, Drawer, Form, Input, Row, Space} from 'antd';
+import React, {useState} from 'react';
 import './styles.css';
 import {Link} from 'react-router-dom';
 
@@ -18,13 +18,14 @@ const Contact = () => {
 
     return (
         <>
-            <Link to="/*" onClick={showDefaultDrawer}>Contact</Link>
+            <Link to="/" onClick={showDefaultDrawer}>Contact</Link>
             <Drawer
                 title="Contact Me"
                 placement="right"
                 size={size}
                 onClose={onClose}
                 open={visible}
+
                 bodyStyle={{
                     paddingBottom: 80,
                 }}
@@ -50,7 +51,7 @@ const Contact = () => {
                                     },
                                 ]}
                             >
-                                <Input placeholder="Please enter your name" />
+                                <Input placeholder="Please enter your name"/>
                             </Form.Item>
                         </Col>
                         <Col span={12}>
@@ -64,7 +65,7 @@ const Contact = () => {
                                     },
                                 ]}
                             >
-                                <Input placeholder="Please enter your phone number" />
+                                <Input placeholder="Please enter your phone number"/>
                             </Form.Item>
                         </Col>
                     </Row>
@@ -80,7 +81,7 @@ const Contact = () => {
                                     },
                                 ]}
                             >
-                                <Input placeholder="Please enter your email address" />
+                                <Input placeholder="Please enter your email address"/>
                             </Form.Item>
                         </Col>
                     </Row>
@@ -96,7 +97,7 @@ const Contact = () => {
                                     },
                                 ]}
                             >
-                                <Input.TextArea rows={4} placeholder="please enter a message" />
+                                <Input.TextArea rows={4} placeholder="please enter a message"/>
                             </Form.Item>
                         </Col>
                     </Row>

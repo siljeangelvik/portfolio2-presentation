@@ -11,9 +11,9 @@ const projects = [
         subtitle: 'Project Exam 2',
         description: `Exam project for "Frontend Development 2" at Noroff. Website for fictional venue booking app "Holidaze" using React, AntDesign and Netlify. Includes home, profile, and venue detail pages.`,
         media: [
-            './media/project_exam_2_home.png',
-            './media/project_exam_2_details.png',
-            './media/project_exam_2_profile.png',
+            './assets/media/project_exam_2_home.png',
+            './assets/media/project_exam_2_details.png',
+            './assets/media/project_exam_2_profile.png',
         ],
         urls: [
             {name: 'GitHub', url: 'https://github.com/siljeangelvik/react-antd-holidaze-exam'},
@@ -25,9 +25,9 @@ const projects = [
         subtitle: 'JavaScript Frameworks CA',
         description: 'A simple e-commerce app that fetches and displays data from an API. Users can add/remove items from the cart, which is saved in local storage. Item details are also available. (mobile-first-approach).',
         media: [
-            './media/javascript_frameworks_home.png',
-            './media/javascript_frameworks_details.png',
-            './media/javascript_frameworks_contact.png',
+            './assets/media/javascript_frameworks_home.png',
+            './assets/media/javascript_frameworks_details.png',
+            './assets/media/javascript_frameworks_contact.png',
         ],
         urls: [
             {name: 'GitHub', url: 'https://github.com/siljeangelvik/react-ts-shopping-cart'},
@@ -39,9 +39,9 @@ const projects = [
         subtitle: 'Semester Project 2',
         description: 'Web app for Asta Auction, an auction house. Built with JavaScript and TailwindCSS, it\'s responsive and works on mobile, tablet, and desktop (mobile-first-approach).',
         media: [
-            './media/semester_project_2_home.png',
-            './media/semester_project_2_details.png',
-            './media/semester_project_2_profile.png',
+            './assets/media/semester_project_2_home.png',
+            './assets/media/semester_project_2_details.png',
+            './assets/media/semester_project_2_profile.png',
         ],
         urls: [
             {name: 'GitHub', url: 'https://github.com/siljeangelvik/semesterproject2'},
