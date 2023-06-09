@@ -1,5 +1,6 @@
 import {Content} from 'antd/lib/layout/layout';
 import {Route, Routes} from 'react-router-dom';
+import Presentation from './pages/Presentation';
 import About from './pages/About';
 import useToggle from './hooks/useToggle';
 import NavBar from './components/NavBar';
@@ -29,7 +30,8 @@ function App() {
                     <Content style={{padding: "20px"}}>
                         <Routes>
                             <Route index path="/" element={<Home isDarkMode={darkModeClass}/>}/>
-                            <Route index path="/about" element={<About/>}/>
+                            <Route path="/about" element={<About/>}/>
+                            <Route path="/presentation" element={<Presentation/>}  />
                         </Routes>
                     </Content>
                 </div>

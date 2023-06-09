@@ -58,6 +58,11 @@ const NavBar = ({handleClick, isDarkMode}) => {
                                 Old Portfolio
                             </Link>
                         </Menu.Item>
+                        <Menu.Item key="5">
+                            <Link to="/presentation">
+                                Presentation
+                            </Link>
+                        </Menu.Item>
                         <span style={{
                             position: "absolute",
                             right: "20px",

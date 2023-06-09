@@ -50,6 +50,19 @@ To run and preview the app:
 yarn start
 ```
 
+### Presentation
+
+The presentation is made with [Slides](
+
+#### Slides
+
+To view the slides, run:
+
+```bash
+presentation presentation.md
+```
+
+
 ## Contributing
 
 No contributions at this time.
@@ -89,6 +102,8 @@ by the Berne convention. This is the preferred license for new code incorporated
 > - [AntDesign Icons](https://ant.design/components/icon)
 > - [AntDesign Drawer](https://ant.design/components/drawer)
 > - [AntDesign Customize Theme](https://ant.design/docs/react/customize-theme)
+> - [Reveal.js PDF Export](https://revealjs.com/pdf-export/)
+> - [Reveal.js Docs](https://revealjs.com/)
 > #### Videos and Tools
 > - [CSS Dark Mode Toggle Button](https://www.youtube.com/watch?v=S-T9XoCMwt4)
 > - [Dark Mode React AntDesign](https://www.youtube.com/watch?v=kOjPItyTn8k)
