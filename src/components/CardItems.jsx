@@ -48,6 +48,62 @@ const projects = [
             {name: 'Live Demo', url: 'https://silje-semesterproject2.netlify.app/'},
         ],
     },
+    {
+        title: 'First Portfolio',
+        subtitle: 'Industry Knowledge CA',
+        description: 'Explore my old portfolio, a stepping stone in my early web development journey. Gain industry knowledge and discover diverse web design techniques through this project.',
+        media: [
+            './assets/media/industry_knowledge_home.png',
+            './assets/media/industry_knowledge_portfolio.png',
+            './assets/media/industry_knowledge_contact.png',
+        ],
+        urls: [
+            {name: 'GitHub', url: 'https://github.com/siljeangelvik/ca-portfolio-vite'},
+            {name: 'Live Demo', url: 'https://siljeangelvik.netlify.app/'},
+        ],
+    },
+    {
+        title: 'ByLan',
+        subtitle: 'Project Exam 1',
+        description: 'Exam project for "Frontend Development 1" at Noroff. Website for external customer "ByLan", which is a voluntary organization focused on creating a positive community for all gamers.',
+        media: [
+            './assets/media/project_exam_1_home.png',
+            './assets/media/project_exam_1_details.png',
+            './assets/media/project_exam_1_about.png',
+        ],
+        urls: [
+            {name: 'GitHub', url: ''},
+            {name: 'Live Demo', url: 'https://www.bylan.net/'},
+        ],
+    },
+    {
+        title: 'Nice Cream',
+        subtitle: 'JavaScript 2',
+        description: 'Course Assigment for JavaScript 2 FED - 2. The project is a web application for a fictional ice cream shop called Nice Cream, where buyer can choose ice cream flavour, size and/or sprinkles.',
+        media: [
+            './assets/media/javascript2_resit_home.png',
+            './assets/media/javascript2_resit_cart.png',
+            './assets/media/javascript2_resit_payment.png',
+        ],
+        urls: [
+            {name: 'GitHub', url: 'https://github.com/siljeangelvik/vite-project-ca-js2'},
+            {name: 'Live Demo', url: 'https://vite-project-ca-js2.netlify.app/'},
+        ],
+    },
+    {
+        title: 'Valorant',
+        subtitle: 'JavaScript 1',
+        description: 'Course Assigment for JavaScript 1 FED - 1. The project was to get data from an API and display it on a website. I chose to use the Valorant API and display the agents and their abilities.',
+        media: [
+            './assets/media/javascript1_home.png',
+            './assets/media/javascript1_details.png',
+            './assets/media/javascript1_contact.png',
+        ],
+        urls: [
+            {name: 'GitHub', url: 'https://github.com/siljeangelvik/js1-ma3-api'},
+            {name: 'Live Demo', url: 'https://javascript1-ca.netlify.app/'},
+        ],
+    },
 ];
 
 function CardItems({isDarkMode}) {
@@ -137,7 +193,6 @@ function CardItems({isDarkMode}) {
             </Card>
         );
     });
-
     return (
         <>
             {listItems}
