@@ -5,7 +5,6 @@ import {
     UserOutlined,
     SettingOutlined,
     MenuOutlined,
-    HistoryOutlined,
     MailOutlined
 } from "@ant-design/icons";
 import {Link} from 'react-router-dom';
@@ -49,20 +48,6 @@ const NavBar = ({handleClick, isDarkMode}) => {
                         <Menu.Item key="3" icon={<MailOutlined/>}>
                             <Contact/>
                         </Menu.Item>
-                        <Menu.Item key="4" icon={<HistoryOutlined/>}>
-                            <Link
-                                to="https://siljeangelvik.netlify.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Old Portfolio
-                            </Link>
-                        </Menu.Item>
-                        <Menu.Item key="5">
-                            <Link to="/presentation">
-                                Presentation
-                            </Link>
-                        </Menu.Item>
                         <span style={{
                             position: "absolute",
                             right: "20px",
@@ -96,15 +81,6 @@ const NavBar = ({handleClick, isDarkMode}) => {
                     </Menu.Item>
                     <Menu.Item key="3" icon={<SettingOutlined/>}>
                         <Contact/>
-                    </Menu.Item>
-                    <Menu.Item key="4" icon={<HistoryOutlined/>}>
-                        <Link
-                            to="https://siljeangelvik.netlify.app/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Old Portfolio
-                        </Link>
                     </Menu.Item>
                     <span style={{
                         width: "100%",
