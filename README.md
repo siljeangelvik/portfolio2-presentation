@@ -50,19 +50,6 @@ To run and preview the app:
 yarn start
 ```
 
-### Presentation
-
-The presentation is made with [Slides](
-
-#### Slides
-
-To view the slides, run:
-
-```bash
-presentation presentation.md
-```
-
-
 ## Contributing
 
 No contributions at this time.
